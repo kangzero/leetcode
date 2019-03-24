@@ -37,9 +37,9 @@ public:
         vector<int> v;
         for (int i = 0; i < nums.size(); i++) {
             v.push_back(nums[i]);
-            cout << v[i] << " ";
+            //cout << v[i] << " ";
         }
-        cout << endl;
+        //cout << endl;
         
         sort(v.begin(), v.end());
         int l = 0;
@@ -51,7 +51,7 @@ public:
             } else if ((v[l] + v[r]) < target) {
                 l++;
             } else {
-                cout << l << " " << r << endl;
+                //cout << l << " " << r << endl;
                 p = v[l];
                 q = v[r];
                 break;
