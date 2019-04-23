@@ -4,8 +4,9 @@
  */
 int* sortedSquares(int* A, int ASize, int* returnSize) {
     *returnSize = ASize;
-    int* ret = (int *)malloc(sizeof(int) * (*returnSize));
-    int* front = A, * rear = A + ASize - 1;
+    int *ret = malloc((*returnSize) * sizeof(int));
+    int *front = A; 
+    int *rear = A + ASize - 1;
     int k = ASize - 1;
     
     while((front <= rear) && (k >= 0)){
