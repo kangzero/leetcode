@@ -102,22 +102,6 @@ public:
         if (n1 < n2) l1 = padList(l1, n2-n1);
         int carry = 0;
         
-#ifdef _DEBUG
-        ListNode *tmp = l1;
-        printf("l1: \n");
-        for (int i = 0; i < n1; i++) {
-            printf("%d ", tmp->val);
-            tmp = tmp->next;
-        }
-        printf("\n");
-        printf("l2: \n");
-        tmp = l2;
-        for (int i = 0; i < n1; i++) {
-            printf("%d ", tmp->val);
-            tmp = tmp->next;
-        }
-        printf("\n");    
-#endif
         ListNode *ret = helper(l1, l2, carry);
         
         if (carry == 1) {
