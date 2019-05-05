@@ -22,4 +22,4 @@ Given the following multilevel doubly linked list:
 ![example 1](https://assets.leetcode.com/uploads/2018/10/12/multilevellinkedlist.png "ex1")
 
 We should return the following flattened doubly linked list:
-![ans] (https://assets.leetcode.com/uploads/2018/10/12/multilevellinkedlistflattened.png "ans")
+![ans](https://assets.leetcode.com/uploads/2018/10/12/multilevellinkedlistflattened.png "ans")
