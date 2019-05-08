@@ -20,7 +20,7 @@ public:
             len++;
             cur = cur->next;
         }
-        cout << len << endl;
+        //cout << len << endl;
         
         ListNode *dummy = new ListNode(-1);
         dummy->next = head;
