@@ -5,7 +5,7 @@ Return a deep copy of the list.
  
 
 Example 1:
-[](https://discuss.leetcode.com/uploads/files/1470150906153-2yxeznm.png)
+![](https://discuss.leetcode.com/uploads/files/1470150906153-2yxeznm.png)
 
 Input:
 {"$id":"1","next":{"$id":"2","next":null,"random":{"$ref":"2"},"val":2},"random":{"$ref":"2"},"val":1}
