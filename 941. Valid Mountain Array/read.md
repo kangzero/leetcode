@@ -1,14 +1,22 @@
-Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that nums[i] = nums[j] and the absolute difference between i and j is at most k.
+Given an array A of integers, return true if and only if it is a valid mountain array.
+
+Recall that A is a mountain array if and only if:
+
+A.length >= 3
+There exists some i with 0 < i < A.length - 1 such that:
+A[0] < A[1] < ... A[i-1] < A[i]
+A[i] > A[i+1] > ... > A[B.length - 1]
+ 
 
 Example 1:
 
-Input: nums = [1,2,3,1], k = 3
-Output: true
+Input: [2,1]
+Output: false
 Example 2:
 
-Input: nums = [1,0,1,1], k = 1
-Output: true
+Input: [3,5,5]
+Output: false
 Example 3:
 
-Input: nums = [1,2,3,1,2,3], k = 2
-Output: false
+Input: [0,3,2,1]
+Output: true
